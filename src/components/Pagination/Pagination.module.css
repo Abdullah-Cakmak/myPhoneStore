@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  text-align: left;
+  width: 220px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  width: 33px;
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttonActive {
+  width: 33px;
+  height: 33px;
+  background: #ff620052;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
